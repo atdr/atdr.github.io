@@ -2,7 +2,7 @@
 title: "Wavetacular"
 layout: post
 date: 2016-02-10 17:36
-image: /assets/images/markdown.jpg
+image: /assets/images/ISS014-E-16597.jpg
 headerImage: false
 tag: 
 star: false
@@ -16,7 +16,7 @@ Browsing NASA's gallery of [Astronaut photography of Earth](http://eol.jsc.nasa.
 Notice the diffraction of the waves around the small islands in the bottom left? Here's a closer look:
 
 <figure>
-    <img src="https://eol.jsc.nasa.gov/DatabaseImages/EFS/highres/ISS014/ISS014-E-16597.JPG" alt="The Isles of Scilly, seen from Space, showing wave diffraction pattern around islands">
+    <img src="/assets/images/ISS014-E-16597.jpg" alt="The Isles of Scilly, seen from Space, showing wave diffraction pattern around islands">
     <figcaption>
         Detail of the Isles of Scilly, seen from Space. (<cite><a href="https://eol.jsc.nasa.gov/Collections/EarthFromSpace/images.pl?photo=ISS014-E-16597">NASA Photo ID ISS014-E-16597</a></cite>)
     </figcaption>
