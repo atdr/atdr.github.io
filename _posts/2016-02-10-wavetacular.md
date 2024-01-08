@@ -9,6 +9,7 @@ star: false
 category: blog
 author: andreasrichardson
 description: Who would have thought that it's possible to see wave diffraction patterns from space?
+redirect_from: /2016/02/wavetacular/
 ---
 
 Browsing NASA's gallery of [Astronaut photography of Earth](http://eol.jsc.nasa.gov) today, I came across this gem of an image of the Scilly Isles.
