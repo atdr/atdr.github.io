@@ -13,7 +13,12 @@ layout: compress
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.title }}">
 
-    {% seo %}
+    {% if page.layout == "home" %}
+        {% seo title=false %}
+        <title>{{ page.title | escape }}</title>
+    {% else %}
+        {% seo %}
+    {% endif %}
 
     {% include favicon.html %}
 
@@ -44,11 +49,7 @@ layout: compress
         {% if page.layout == "post" %}
             <div class="post">
         {% else %}
-            {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
-            {% endif %}
+            <div class="page {% if page.layout == "home" %}home{% else %}{{ page.title | downcase }}{% endif %}">
         {% endif %}
 
             {{ content }}

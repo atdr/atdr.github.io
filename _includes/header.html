@@ -1,4 +1,4 @@
-{% if page.title == "Home"
+{% if page.layout == "home"
    or page.title == "Blog"
    or page.title == "Projects"
    or page.title == "Tags"
@@ -18,6 +18,9 @@
 
         <h1 class="title">{{ site.title }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
+        {% if site.sub-bio %}
+            <p class="sub-description">{{ site.sub-bio }}</p>
+        {% endif %}
 
         {% include social-links.html %}
     </header>

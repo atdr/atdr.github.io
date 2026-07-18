@@ -1,6 +1,6 @@
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
+<nav class="{% if page.layout == "home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
-        {% if page.title != "Home" %}
+        {% if page.layout != "home" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/">Home</a>
             </li>
